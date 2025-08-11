@@ -1,1 +1,1 @@
-worker: python -m renamer
+worker: gunicorn app:app & python -m renamer
